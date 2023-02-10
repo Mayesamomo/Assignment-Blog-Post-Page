@@ -1,4 +1,4 @@
-/* the form advance styling was researched on MDN web Docs (https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling) */
+/* the form advance (attribute selector) styling was researched on MDN web Docs (https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling) */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -99,7 +99,7 @@ a:active{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px gray;
-    margin: 15px 0 5px 0;
+    margin: 15px 0 15px 0;
   }
   .flex-container img {
     width: 40%;
