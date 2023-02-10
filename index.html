@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Article Page</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+</head>
+
+<body>
+    <header class="tool_bar">
+        <div class="logo">
+            <h1>My Blog Posts</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!--Post content-->
+            <header class="blog_header">
+                <h2>Blog Article Title</h2>
+                <p>Written by <a href="#">Michael A. Momo</a> on <time>2023-02-07</time></p>
+            </header>
+            <section>
+                <!--images are from unsplash (https://unsplash.com/photos/YzKdrThXLIk) and (https://unsplash.com/photos/eygpU6KfOBk)-->
+                <h3 class="post_title">About Lorem Ipsum</h3>
+                <div class="flex-container">
+                    <img src="./images/terminal1-unsplash.jpg" alt="terminal1-unsplash image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non fringilla ipsum. Nam aliquet mi
+                        a
+                        diam dictum, eget commodo magna tempus. Donec auctor, est at tristique consectetur, odio ligula
+                        mollis ante, eget consectetur est velit vel justo. Aliquam erat volutpat. Nam convallis velit
+                        vel
+                        varius egestas. Sed commodo sem vel fringilla facilisis. Praesent feugiat ipsum a magna auctor,
+                        id
+                        suscipit nulla tincidunt. Fusce in risus vitae tellus sollicitudin tempor. Integer luctus eget
+                        risus
+                        eget volutpat. Morbi tincidunt, sem a rutrum placerat, eros magna bibendum dolor, in aliquet
+                        eros
+                        sapien id lacus. Sed consectetur quam et metus mollis commodo. Aliquam erat volutpat.
+                    </p>
+
+                    <img src="./images/terminal2-unsplash.jpg" alt="terminal2-unsplash image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non fringilla ipsum. Nam aliquet mi
+                        a
+                        diam dictum, eget commodo magna tempus. Donec auctor, est at tristique consectetur, odio ligula
+                        mollis ante, eget consectetur est velit vel justo. Aliquam erat volutpat. Nam convallis velit
+                        vel
+                        varius egestas. Sed commodo sem vel fringilla facilisis. Praesent feugiat ipsum a magna auctor,
+                        id
+                        suscipit nulla tincidunt. Fusce in risus vitae tellus sollicitudin tempor. Integer luctus eget
+                        risus
+                        eget volutpat. Morbi tincidunt, sem a rutrum placerat, eros magna bibendum dolor, in aliquet
+                        eros
+                        sapien id lacus. Sed consectetur quam et metus mollis commodo. Aliquam erat volutpat.
+                    </p>
+                </div>
+                <!-- comment form -->
+                <div class="comments">
+                    <h3>Leave a Comment</h3>
+                    <form method="POST">
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <label for="comment">Your Comment:</label>
+                        <textarea name="comment" id="comment" placeholder="Comment"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <!-- comment list -->
+                <div class="comment-section">
+                    <h3>Comments</h3>
+                    <div class="comment">
+                        <h4>Ayesa</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    </div>
+                    <div class="comment">
+                        <h4>Momo</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <!--Post aside-->
+        <aside>
+            <h4>Related Articles</h4>
+            <ul>
+                <li><a href="#">Powershell</a></li>
+                <li><a href="#">Commandline</a></li>
+                <li><a href="#">Vim</a></li>
+                <li><a href="#">Vi</a></li>
+                <li><a href="#">Article 3</a></li>
+            </ul>
+
+            <!--form for newsletter-->
+            <form>
+                <h3>Subscribe to our Newsletter</h3>
+                <label for="email">Enter your email address:</label>
+                <input type="email" id="email" placeholder="Email address">
+                <input type="submit" value="Subscribe">
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Blog Article Page</p>
+    </footer>
+</body>
+
+</html>
